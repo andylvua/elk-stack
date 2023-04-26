@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  elk-stack:
+  - apiVersion: v2
+    appVersion: 7.17.3
+    created: "2023-04-27T01:53:39.877255131+03:00"
+    dependencies:
+    - alias: es-master
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - alias: es-data
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - alias: es-client
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: kibana
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: logstash
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - name: filebeat
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    description: Helm chart for Filebeat and ELK stack deployment
+    digest: 7bd0d260b6f8682cd755d552d2bbcd01554bca436e72c8b431775c8562a9ecb3
+    maintainers:
+    - email: ayaroshlvua@gmail.com
+      name: Andrew
+    name: elk-stack
+    urls:
+    - elk-stack-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-04-27T01:53:39.872142276+03:00"
